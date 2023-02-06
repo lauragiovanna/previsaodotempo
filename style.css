@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Open Sans', sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw ;
+    background-image: url("https://feronconi.com.br/wp-content/uploads/2015/11/tempo-ampulheta-scaled.jpg");
+   
+}
+.caixa__maior{
+    background-color: black;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+    
+
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 100px);
+   
+    
+}
+.caixa__media{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.botao{
+   border-radius: 50px;
+   border: none;
+   outline: none;
+   padding:10px ;
+   background-color: #7c7c7c2b; 
+   float: right;
+   cursor: pointer;
+}
+.botao:hover{
+    background-color:#7c7c7c6b ;
+    
+}
+.lupa{
+    height: 20px;
+}
+.temp{
+    margin-top: 20px;
+    color: white;
+}
+.umidade{
+    margin-top: 20px;
+    color: white;
+}
+.descricao{
+    
+    color: white;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.caixa__menor{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
